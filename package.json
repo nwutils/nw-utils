@@ -1,0 +1,32 @@
+{
+  "name": "nw-utils",
+  "version": "0.0.1",
+  "description": "Utilities and helper functions for NW.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw .",
+    "lint": "eslint --config=.eslintrc.js utils/**/*.js",
+    "fix": "eslint --fix --config=.eslintrc.js utils/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheJaredWilcurt/nw-utils.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "nw": "sdk"
+  },
+  "keywords": [
+    "NW.js",
+    "node-webkit",
+    "utilities",
+    "utils",
+    "helpers"
+  ],
+  "author": "The Jared Wilcurt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheJaredWilcurt/nw-utils/issues"
+  },
+  "homepage": "https://github.com/TheJaredWilcurt/nw-utils#readme"
+}
